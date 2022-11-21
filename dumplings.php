@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
-  <title>Instant Pot Chicken and Dumplings</title>
-</head>
-<body>
-  <header>
-    <h1>Odin Recipes</h1>
-  </header>
-  <div class="container">
-    <nav>
-      <a href="../../index.html">Home</a>
-      <a href="./dumplings.html">Instant Pot Chicken and Dumplings</a>
-      <a href="./meatloaf.html">Easy Meatloaf</a>
-      <a href="./slopy_joes.html">Slopy Joes</a>
-  </nav>
+<?php 
+$pageTitle = 'Dumplings';
+include('includes/header.php'); ?>    
     <main>
       <article>
         <h2>Instant Pot Chicken and Dumplings</h2>
         <div class="img-container">
-          <img src="../../img/recipe.jpg" alt="Dumplings dish">
+          <img src="./img/recipe.jpg" alt="Dumplings dish">
         </div>
         <section>
           <h3>Description</h3>
