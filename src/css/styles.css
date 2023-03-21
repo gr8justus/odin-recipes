@@ -1,83 +1,88 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1rem;
-    color: gray;
-    letter-spacing: 2px;
-    line-height: 1.5;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: gray;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
 
 .container {
-    margin: 0 7em;
+  margin: 0 7em;
 }
 
 header {
-    background-color: orange;
-    color: white;
-    margin-bottom: 1em;
+  background-color: orange;
+  color: white;
+  margin-bottom: 1em;
 }
 
 nav a {
-    text-decoration: none;
-    margin-right: 1em;
-    text-align: center;
-    color: #333;
+  text-decoration: none;
+  margin-right: 1em;
+  text-align: center;
+  color: #333;
 }
 
 nav a:hover {
-    background-color: #00f7;
-    padding: .2em .5em;
+  background-color: #00f7;
+  padding: 0.2em 0.5em;
 }
 
 nav a:active {
-    background-color: #f007;
+  background-color: #f007;
 }
 
-h2, h3, h4 {
-    color: black;
+h2,
+h3,
+h4 {
+  color: black;
 }
 
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
 h1 {
-    color: inherit;
-    font-size: 3em;
+  color: inherit;
+  font-size: 3em;
 }
 
 h2 {
-    font-size: 2em 
+  font-size: 2em;
 }
 
 h3 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 nav {
-    text-align: center;
-    margin-bottom: 1em;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 li {
-    margin-bottom: .5em;
-    list-style-position: inside;
+  margin-bottom: 0.5em;
+  list-style-position: inside;
 }
 
 .img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2em 0;
 }
 
 img {
-    width: 700px;
-    height: auto;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 0.8;
 }
 
 section {
-    margin-top: 1em;
-    margin-bottom: .5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
