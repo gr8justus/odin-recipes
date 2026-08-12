@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   color: black;
+  font-family: inherit;
 }
 
 body {
   background-color: white;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 h1 {
