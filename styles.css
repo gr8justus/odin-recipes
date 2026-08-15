@@ -9,6 +9,7 @@
 body {
   background-color: white;
   font-family: Helvetica, Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 h1 {
@@ -19,37 +20,35 @@ h1 {
 }
 
 p,
-li,
-.home-link {
-  font-size: 18px;
-  line-height: 1.5;
+li {
+  font-size: 17px;
 }
 
 .links li,
-.home-link {
-  padding: 10px 20px;
+.home-link a {
+  padding: 8px 16px;
   background-color: #ffa50040;
   text-align: center;
-}
-
-.links li {
-  display: inline-block;
-  margin: 0 15px;
+  border-radius: 5%;
+  font-size: 18px;
 }
 
 .links {
-  width: 500px;
-  margin: 0 auto;
-  padding: 0px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 a {
   text-decoration: none;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+.img {
+  display: flex;
+  justify-content: center;
   margin-bottom: 24px;
 }
 
@@ -72,7 +71,7 @@ li {
 }
 
 .home-link {
-  display: block;
-  width: 100px;
-  margin: 0 36px 36px auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 36px 10px 0;
 }
