@@ -16,4 +16,4 @@ The images used in this project are credited to their respective creators and so
 
 - [Yellow corn pap and Moimoi](https://commons.wikimedia.org/wiki/File:Yellow_corn_pap_and_Moimoi.jpg) by Bukky658, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons.
 
-- [EGUSI SOUP](https://commons.wikimedia.org/wiki/File:EGUSI_SOUP.JPG) by Ask4ugo, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons.
+- [Egusi soup](./assets/imgs/500px-EGUSI_SOUP.jpeg) Adapted from [EGUSI SOUP](https://commons.wikimedia.org/wiki/File:EGUSI_SOUP.JPG) by Ask4ugo, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons (Cropped from original).
